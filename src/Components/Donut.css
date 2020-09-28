@@ -1,0 +1,51 @@
+.outer {
+  position: relative;
+  height:90px;
+  width: auto;
+}
+.donut {
+    position: absolute;
+}
+
+.percent {
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+ transform: translate(-50%,+50%);
+ bottom: 0;
+ left: 50%;
+}
+.icon{
+    color:rgba(46, 204, 113, 1);
+    height: 25px !important;
+    width: 25px !important;
+}
+.text{
+    text-align: center;
+    font-size:35px;
+}
+.upper_title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.upper_title > p{
+     color:gray;
+}
+.dots{
+    background-color: rgb(216, 214, 214);
+     padding:1px;
+    color: black;
+}
+
+.lower_title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.lower_title > span{
+    font-size: 15px;
+}

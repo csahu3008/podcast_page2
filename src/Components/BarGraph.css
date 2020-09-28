@@ -1,0 +1,21 @@
+.bargraph{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bargraph__title{
+    font-size: 16px;
+    color:gray;
+
+}
+.bargraph__data{
+    font-size: 25px;
+}
+
+.bargraph__per {
+  font-size: 13px;
+}
+
+.bargraph__per > span{
+    color:green;
+}
